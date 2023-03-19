@@ -1,3 +1,41 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+ul {
+  list-style-type: none;
+}
+header {
+  display: flex;
+  flex-direction: row;
+}
+.header {
+  font-family: "Raleway";
+  font-weight: 700;
+  width: 145px;
+  height: 31px;
+  top: 24px;
+  left: 215px;
+  text-decoration: none;
+}
+.web {
+  color: #2196f3;
+}
+.navigation {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 500;
+  width: 53px;
+  height: 16px;
+  top: 32px;
+  left: 453px;
+}
+.interactive :hover {
+  color: #2196f3;
+}
+.contackt :hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: #2196f3;
+}
