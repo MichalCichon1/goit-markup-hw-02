@@ -14,7 +14,9 @@ body {
   background-color: #ffffff;
   color: var(--color-main);
 }
-
+.list {
+  list-style: none;
+}
 .button-portfolio-page:hover {
   background-color: var(--color-button-link);
   color: var(--color-text);
