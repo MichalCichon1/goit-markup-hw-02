@@ -11,11 +11,20 @@
 body {
   font-weight: 400;
   font-family: "Roboto", sans-serif, "Raleway", sans-serif;
-  background: #ffffff;
   color: var(--color-main);
 }
 .list {
   list-style: none;
+}
+.pictures-project {
+  border: 1px solid #eeeeee;
+  background: #ffffff;
+}
+.pictures-team {
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .button-portfolio-page:hover {
   background-color: var(--color-button-link);
@@ -28,16 +37,13 @@ body {
 .button:hover {
   text-shadow: 4px 4px 6px #212121;
 }
-.background-secundary {
-  background: #e5e5e5;
-}
 .button {
   color: var(--color-text);
   cursor: pointer;
   font-size: 16px;
 }
 .background-team {
-  background-color: #f5f4fa;
+  background: #f5f4fa;
 }
 .button-portfolio-page {
   color: var(--color-main);
@@ -68,9 +74,7 @@ body {
 .interactive:focus {
   color: var(--color-button-link);
 }
-.background-menu {
-  background: #ececec;
-}
+
 .navigation {
   letter-spacing: 0.02em;
   color: var(--color-main);
@@ -114,7 +118,9 @@ body {
   color: var(--color-footer-color);
   text-decoration: none;
 }
-
+.menu {
+  border: 1px solid #ececec;
+}
 .article {
   letter-spacing: 0.03em;
   line-height: 1.714;
@@ -166,8 +172,6 @@ body {
 }
 
 .project-name {
-  background: #ffffff;
-  border: 1px solid #eeeeee;
   letter-spacing: 0.06em;
   line-height: 2;
   font-size: 18px;
